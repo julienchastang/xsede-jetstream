@@ -1,0 +1,80 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+options: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+options: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+title: OU and UNCC Regional Workshop Jupyter Orientation
+#+date: <2020-02-24 Mon>
+#+author: Julien Chastang
+#+email: chastang@ucar.edu
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 26.3 (Org mode 9.2.1)
+
+* Login to pyaos.unidata.ucar.edu
+
+- Welcome to your Juyter environment for the day
+- Orient users at top-level of file system tree (ou-workshop-2020, python-training)
+- Troubleshoot Guide =ou-workshop-2020/jupyter-troubleshooting.md=
+- The aim here is to "learn by doing".
+
+* Lorenz System
+
+- Navigate to =ou-workshop-2020/notebooks/lorenz.ipynb=.
+- Here is an example of a Jupyter Notebook that we can look at in more detail:
+  - Expository text expressed with Markdown
+  - Latex-style equations expressed with mathjax
+  - Code (many languages supported, today will be Python focused)
+  - Figures
+- Before diving into detail run the Lorenz notebook
+- Tweak the notebook and run again
+- This -- in a nutshell -- is Jupyter
+
+* More on Jupyter
+
+- Jupyter is a technology that allows users to run interactive code in the browser
+- It excels at:
+  - Teaching objectives
+  - Experimentation 
+- - Template off of other people's work for scientific exploration
+- Science Communication: Sharing of results, analysis visualization
+  - e.g., LIGO gravitaional wave detector notebook,
+  - executable scientific paper
+- Conclusion: more humane way to learn to program
+
+* Why Python?
+
+- Jupyter supports many languages, today we will be using Python today
+- Python, a "batteries included" programming language that has become popular in the scientfic programming arena
+- Rich set up scientific programming libraries including MetPy.
+- Using an interactive form of Python called IPython
+- "Instant gratification" programming leads to faster experimentation and learning
+
+* Help Menu
+
+- Help ▶ User Interface Tour
+  - kernel indicator
+  - notification
+
+* More on PyAOS setup
+
+- Now navigate to 250-hPa Hemispheric Map using Python notebook
+- Make sure you are in the correct kernel
+- The kernel provides the computing environment for your code to run and execute correctly.
+- Kernel has been set up for you already
+- Run notebook
+- Data proximate analysis and vizualization with tds.scigw
+
+* JupyterLab
+
+- JupyterLab is the next generation interface to Jupyter
+
+* JupyterHub
+
+- Multi-user jupyterHub server
+
+* Behind the Scenes
+
+- NSF Jetstream Cloud
+- Zero to JupyterHub project
+- 
